@@ -139,19 +139,20 @@ namespace HttpServerLib
 		{
 			if (string.IsNullOrEmpty(content) || string.IsNullOrEmpty(key))
 			{
-				return "";
+				return null;
 			}
 
 			var allLines = content.Split('\n');
 
 			var line = allLines.Where(item => item.Split(':')[0] == key);
 
-			if (line == null || !line.Any())
+			var result = line as IList<string> ?? line.ToList();
+			if (!result.Any())
 			{
 				return null;
 			}
 
-			var reval = line.First().Split(':');
+			var reval = result.First().Split(':');
 
 			return reval.Length <= 1 ? null : reval[1];
 		}
@@ -173,12 +174,14 @@ namespace HttpServerLib
 
 			var line = allLines.Where(item => item.Split(':')[0] == key);
 
-			if (line == null || !line.Any())
+			var result = line as IList<string> ?? line.ToList();
+
+			if (!result.Any())
 			{
 				return null;
 			}
 
-			var reval = line.First().Split(':');
+			var reval = result.First().Split(':');
 
 			return reval.Length <= 1 ? null : reval[1].Split(',');
 		}
