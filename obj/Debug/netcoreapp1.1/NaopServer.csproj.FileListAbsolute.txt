@@ -1,0 +1,8 @@
+/Users/wang-kang/Projects/NaopServer/bin/Debug/netcoreapp1.1/NaopServer.deps.json
+/Users/wang-kang/Projects/NaopServer/bin/Debug/netcoreapp1.1/NaopServer.runtimeconfig.json
+/Users/wang-kang/Projects/NaopServer/bin/Debug/netcoreapp1.1/NaopServer.runtimeconfig.dev.json
+/Users/wang-kang/Projects/NaopServer/bin/Debug/netcoreapp1.1/NaopServer.dll
+/Users/wang-kang/Projects/NaopServer/bin/Debug/netcoreapp1.1/NaopServer.pdb
+/Users/wang-kang/Projects/NaopServer/obj/Debug/netcoreapp1.1/NaopServer.AssemblyInfo.cs
+/Users/wang-kang/Projects/NaopServer/obj/Debug/netcoreapp1.1/NaopServer.dll
+/Users/wang-kang/Projects/NaopServer/obj/Debug/netcoreapp1.1/NaopServer.pdb
