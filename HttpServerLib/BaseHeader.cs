@@ -24,7 +24,7 @@ namespace HttpServerLib
 			set;
 		}
 
-		public string Data
+		public string Date
 		{
 			get;
 			set;
